@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Media</title>
+</head>
+
+<body>
+    <!-- Audio Tag -->
+    <div>
+        <audio src="./check.mp3" controls></audio>
+
+        <audio controls>
+            <!-- Primary -->
+            <source src="./Jaadugar.mp3" type="audio/mp3">
+            <!-- Secondary -->
+            <source src="./check.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <!-- Video Tag-->
+    <div>
+        <video src="./hawa.MP4" height="500" width="300" controls autoplay muted></video>
+
+        <video height="400" width="250" controls>
+            <source src="./hawa.MP4">
+            Your browser does not support the video element.
+        </video>
+    </div>
+
+    <!-- iframe -->
+    <div>
+        <iframe src="https://www.youtube.com/embed/fGkXjQkXzW8?si=rVdKxdLIv0n-a2Zf" title="YouTube video player"
+            frameborder="0" height="315" width="560" allowfullscreen></iframe>
+    </div>
+
+
+</body>
+
+</html>
