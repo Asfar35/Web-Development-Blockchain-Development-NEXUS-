@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    background-color: aquamarine;
+}
+h2{
+    margin: 5px;
+    border:3px red dotted;
+    padding: 30px 100px;
+    box-sizing: border-box;
+    background-color: steelblue;
+    color: white;
+}

@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    background-color: aquamarine;
+}
+#byName{
+    color: red;
+}
+.first{
+    color: rgb(0, 128, 0);
+}
+.second{
+    color: #0000ff;
+}
