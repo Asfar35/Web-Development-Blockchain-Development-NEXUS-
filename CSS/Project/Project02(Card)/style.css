@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+.card{
+    display: inline-block;
+    margin:100px;
+    background-color: aliceblue;
+    border-radius: 35px;
+    height: 370px;
+    width: 310px;
+}
+.contain{
+    margin-left: 15px;
+    padding: 10px;
+    line-height: 27px;
+}
+.rattings{
+    margin-right: 35px;
+}
+.contain :nth-child(2){
+    background-color: darkgreen;
+    padding: 2px 5px;
+    border-radius: 6px;
+}
+.img1>img{ 
+    padding: 5px;
+    border-radius: 15px;
+    width: 300px;
+    height: 220px;
+}
+.offer{
+    position: absolute;
+    left: 105px;
+    top: 285px;
+    background-color: rgb(17, 85, 203,0.88);
+    height: 25px;
+}
+.offer>img{
+    height:20px; 
+    width: auto; 
+    margin-left: 5px;
+    float: left;
+    margin-top: 2.5px;
+}
+.offer > span{
+    color: white;
+    padding: 10px;
+    position: relative;
+    top: 2.5px;
+}
+.card :hover{
+    cursor: pointer;
+}

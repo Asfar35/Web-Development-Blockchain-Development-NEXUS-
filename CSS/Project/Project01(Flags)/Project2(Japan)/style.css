@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+}
+.flag{
+    width: 50vh;
+    height: 50vh;
+    border-radius: 50%;
+    background-color: red;
+    margin: auto;
+    margin-top: 25vh;
+}

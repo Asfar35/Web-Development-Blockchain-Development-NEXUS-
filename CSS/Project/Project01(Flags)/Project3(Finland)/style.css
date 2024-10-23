@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    background-color: blue;
+}
+.first, .third{
+    display: inline-block;
+    width:28vw;
+    height:40vh;
+    background-color: white;
+}
+.second, .fourth{
+    display: inline-block;
+    width:60vw;
+    height: 40vh;
+    background-color: white;
+}
+.second, .fourth{
+    margin-left: 10.43vw;
+}
+.third, .fourth{
+    margin-top: 20vh;
+}
