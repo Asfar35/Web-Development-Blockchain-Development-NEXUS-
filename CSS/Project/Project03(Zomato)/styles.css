@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+.heading{
+    background-color: white;
+}
+.first{
+    margin-left: 200px;
+}
+.brand{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.searching{
+    margin-left: 50px;
+    padding: 10px;
+    padding-right: 200px;
+    position: relative;
+    bottom: 5px;
+}
+.log>button{
+    margin-left: 100px;
+}
+button{
+    margin-left: 20px;
+    margin-right: 20px;
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    color: rgb(148, 145, 145);
+    position: relative;
+    bottom: 5px;
+}
+.dining{
+    padding-left: 185px;
+}
+.dine>img, .del>img, .night>img{
+    height: 35px;
+}
+.text>h2{
+    position: relative;
+    bottom: 8px;
+    padding: 8px;
+    font-size: 20px;
+    color: grey;
+}
+.second{
+    margin-left: 200px;
+}
+.second span{
+    color: rgb(148, 145, 145);
+}
+.delivary{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.third{
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+.fourth{
+    background-color: rgb(247, 246, 246);
+    /* height: 50vh; */
+}
+.collection{
+    margin-left: 160px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.collection p{
+    color: rgb(150, 143, 143);
+}
+.collection span{
+    color: red;
+    margin: 0px 50px;
+}
+
+.photo>img, .photo1>img,.photo2>img,.photo3>img{
+    margin-left: 155px;
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    /* position: relative; */
+}
+.photo1>img,.photo2>img,.photo3>img{
+    margin-left: 10px;
+}
+
+main{
+    margin-left: 10vw;
+}
+.card{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    border: 10px solid aliceblue;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: white;
+    border-color: white;
+}
+.box{
+    display: inline-block;
+    margin: 5px;
+}
+.image{
+    position: relative;
+}
+.img0{
+    height: 250px;
+    width: 330px;
+    border-radius: 20px;
+}
+.discount{
+    position: absolute;
+    background-color: rgba(0, 0, 255, 0.75);
+    bottom: 20px;
+    padding-right: 20px;
+}
+.img1{
+    display: inline-block;
+    background-color: transparent;
+    height: 25px;
+    padding-top: 3px;
+}
+.off{
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+    position: relative;
+    left: 10px;
+    top: -5px;
+    margin: 0px;
+}
+.resturent, .food, .address{
+    position: relative;
+}
+.resturent-name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.ratting{
+    position: absolute;
+    right: 10px;
+    color: white;
+    background-color: darkgreen;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 6px;
+}
+.food-name,.price, .location{
+    color: grey;
+}
+.price{
+    position: absolute;
+    right: 10px;
+}
+.distance{
+    position: absolute;
+    right: 10px;
+    font-size: 15px;
+    color: rgb(70, 69, 69);
+}
