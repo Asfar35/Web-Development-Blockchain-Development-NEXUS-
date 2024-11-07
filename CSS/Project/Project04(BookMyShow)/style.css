@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(215, 46, 46);
+    color: white;
+    padding: 2em 1.5em;
+}
+.right>button{
+    background-color: rgb(215, 46, 46);
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+.second{
+    background-color: rgb(172, 163, 163);
+    padding: 2em 0;
+    display: flex;
+    justify-content: center;
+}
+.searching{
+    width: 400px;
+    max-width: 60%;
+    padding: 0.5em;
+    font-size: 1em;
+    border-radius: 5px ;
+}
+.second>button{
+    background-color: rgb(215, 46, 46);
+    margin-left: 1em;
+    padding: 0.5em;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./Asset/mover.jpg);
+    padding: 2rem 0;
+}
+.hero>h2{
+    color: white;
+    background-color: black;
+    font-size: 2em;
+}
+.hero>button{
+    color: white;
+    font-size: 1.5em;
+    padding: 0.3rem 0.5em;
+    background-color: rgb(215, 46, 46);
+    margin: 1em 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.middle>h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 1em;
+}
+.cards{
+    display: flex;
+    margin: 2em 0;
+    overflow-x: scroll;
+}
+.card{
+    background-color: rgb(172, 163, 163);
+    border-radius: 5px;
+    border: 5px solid rgb(172, 163, 163);;
+    margin-left: 1rem;
+}
+.card>img{
+    height: 400px
+}
+.card>h3{
+    text-align: center;
+}
+.last{
+    display: flex;
+    justify-content: center;
+}
+.last>img{
+    max-width: 80%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+@media(max-width:600px){
+    .first{
+        flex-direction: column;
+        align-items: center;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+    }
+    .cards{
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+}
