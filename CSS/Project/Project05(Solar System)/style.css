@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* background-color: gray; */
+}
+.sun{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: rgb(255,255,0);
+    background: radial-gradient(circle, rgba(255,255,0,1) 0%, rgba(251,148,63,1) 100%);
+    /* box-shadow: 2px 7px 59px 17px #fb943f; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mercury{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(0, 247, 255);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    animation-name: mur;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+.earth{
+    height: 70px;
+    width: 70px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    animation-name: ear;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jupiter{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(255, 0, 179);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    animation-name: jup;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.earth_orbit, .jupiter_orbit, .murcary_orbit {
+    height: 380px;
+    width: 380px;
+    border: 3px dotted gray;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+}
+.murcary_orbit{
+    height: 250px;
+    width: 250px;
+}
+.jupiter_orbit{
+    height: 580px;
+    width: 580px;
+}
+@keyframes ear {
+    from{
+        transform: rotate(0deg) translate(180px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translate(180px) rotate(-360deg);
+    }
+}
+@keyframes jup {
+    from{
+        transform: rotate(0deg) translate(280px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translate(280px) rotate(-360deg);
+    }
+}
+@keyframes mur {
+    from{
+        transform: rotate(0deg) translate(120px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translate(120px) rotate(-360deg);
+    }
+}
