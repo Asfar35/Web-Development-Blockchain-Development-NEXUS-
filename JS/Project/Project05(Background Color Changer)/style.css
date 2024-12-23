@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+button{
+    height: 100px;
+    width: 100px;
+    border: none;
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: green;
+}
+#orange{
+    background-color: orange;
+}
+#pink{
+    background-color: pink;
+}
